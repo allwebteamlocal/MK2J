@@ -1,0 +1,60 @@
+#header, #footer { 
+	clear: both; 
+	float: left; 
+	width: 100%; 
+}
+.colmask { 
+	clear: both; 
+	float: left; 
+	width: 100%; 
+	position: relative; 
+	overflow: hidden; 
+	background-color: #fff; 
+}
+.threecol { 
+	background: #CDEAFF; 
+}
+.threecol .colmid { 
+	float: left; 
+	width: 200%; 
+	margin-left: -12em; 
+	position: relative; 
+	right: 100%; 
+	background: #fff; 
+}
+.threecol .colleft { 
+	float: left; 
+	width: 100%; 
+	margin-left: -50%; 
+	position: relative; 
+	left: 26em; 
+	background: #CFC; 
+}
+.threecol .col1 { 
+	float: left; 
+	width: 50%; 
+	position: relative; 
+	right: 12em; 
+	padding-bottom: 1em; 
+}
+.threecol .col1-content { 
+	margin: 0 15em 0 13em; 
+	position: relative; 
+	left: 200%; 
+	overflow: hidden; 
+}
+.threecol .col2 { 
+	float: left; 
+	float: right; 
+	width: 12em; 
+	position: relative; 
+	right: 1em; 
+}
+.threecol .col3 { 
+	float: left; 
+	float: right; 
+	width: 10em; 
+	margin-right: 3em; 
+	position: relative; 
+	left: 50%; 
+}

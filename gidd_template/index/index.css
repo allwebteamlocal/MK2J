@@ -1,0 +1,14 @@
+/** this file is auto loaded because it has the same name as its parent directory **/
+
+
+@media screen and (min-width:980px){
+	.container{width: 980px !important; }
+
+}
+
+#navSlide{ width: 980px;   z-index: 1000; position: absolute;  text-align: center;}
+#navSlide a{background:black; padding:5px; font-size:10px; color:white; width: auto;}
+#navSlide a.activeSlide{color:red; background:white; text-decoration: none; border: none;}
+.servicesBox{padding:10px; border:solid 2px #385D8A; font-size:1.3em; color:white !important;}
+.servicesBox:hover{color:#333 !important;}
+

@@ -1,0 +1,8 @@
+/** You can write your stylesheet here 
+*	rather than writing on the original style.css file 
+*	By default, ther is a master.css & space.css files loaded with one of the gidd layout 
+*	so that you don't need to add reset style etc.
+**/
+
+/** Your CSS Here **/
+.intro{ text-align: center; }

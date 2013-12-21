@@ -1,0 +1,70 @@
+** July/17/2013 - v.1.0.0 **
+--------------------------------------------------	
+	- Initial release
+	
+** October/29/2013 - v.1.1.0 **
+--------------------------------------------------
+	- Added gidd admin template
+	- Update gidd admin options
+	- Minor bug fixes
+
+** November/01/2013 - v.1.1.1 **
+--------------------------------------------------
+	- Allow custom template files for custom post types
+	  in gidd_application by using filter
+	- Update Bootstrap to v3.0.0 with 12/16/24 grid columns
+	  ( 0 gutter width )
+	- Update bPopup to v0.9.4
+	- Remove jQuery lazyload from core
+	- Minor bug fixes
+
+** November/07/2013 - v.1.1.2 **
+--------------------------------------------------
+	- Allow custom form element attribute for html5
+	- Update default layout to bootstrap 16 grid column
+	- Add ".round" & ".container-full" css
+	- Simplify menu function in gidd_helper.php
+	- Fix gidd customizer for primary menu background
+	- Auto start session on init hook if not wp admin
+	- Minor fixes to gidd_cycle to use gidd_data as param
+	- Update function show_date to use the_modified_date instead of the_time
+	- Update gidd_comment
+	- Add default filter for measure
+	
+** November/18/2013 - v.1.1.3 **
+--------------------------------------------------
+	- add function get_ID_by_slug
+	- update gidd_register_post_type & gidd_register_taxonomy
+	- move gidd cycle & static text into gidd admin
+	- add gidd wp admin as optional addon
+	- remove unnecessary files from gidd wp config
+	- add setting icon for gidd admin
+	- improve gidd download
+	
+
+** November/25/2013 - v.1.1.4 **
+--------------------------------------------------
+	- fix fav icon for admin
+	- fix gidd seo for front page
+	- remove gidd_wp_admin from optional addon
+	- remove dashboard config from gidd_wp_config from wp 3.8+
+	- add two functions is_wp_version_gte & is_wp_version_le
+
+
+** December/03/2013 - v.1.2.0 **
+---------------------------------------------------
+	- fix wp_debug notices
+	- improve gidd seo
+	- improve gidd admin layout
+	- improve gidd wp admin
+	- update gidd_cycle
+	- fix some minor bugs
+
+
+** December/12/2013 - v.1.2.1 **
+---------------------------------------------------
+	- update Gidd SEO with robot setting inside metabox
+	- remove gidd_popular_posts from optional addons
+	- remove rss filters from html head
+	- optimize css & js files
+	- update gidd_static

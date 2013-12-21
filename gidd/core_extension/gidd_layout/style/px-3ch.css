@@ -1,0 +1,60 @@
+#header, #footer { 
+	clear: both; 
+	float: left; 
+	width: 100%; 
+}
+.colmask { 
+	clear: both; 
+	float: left; 
+	width: 100%; 
+	position: relative; 
+	overflow: hidden; 
+	background-color: #fff; 
+}
+.threecol { 
+	background: #e2f4ff; 
+}
+.threecol .colmid { 
+	float: left; 
+	width: 200%; 
+	margin-left: -200px; 
+	position: relative; 
+	right: 100%; 
+	background: #fff; 
+}
+.threecol .colleft { 
+	float: left; 
+	width: 100%; 
+	margin-left: -50%; 
+	position: relative; 
+	left: 400px; 
+	background: #fafafa; 
+}
+.threecol .col1 { 
+	float: left; 
+	width: 50%; 
+	position: relative; 
+	right: 200px; 
+	padding-bottom: 1em; 
+}
+.threecol .col1-content { 
+	margin: 0 215px; 
+	position: relative; 
+	left: 200%; 
+	overflow: hidden; 
+}
+.threecol .col2 { 
+	float: left; 
+	float: right; 
+	width: 170px; 
+	position: relative; 
+	right: 15px; 
+}
+.threecol .col3 { 
+	float: left; 
+	float: right; 
+	width: 170px; 
+	margin-right: 45px; 
+	position: relative; 
+	left: 50%; 
+}
